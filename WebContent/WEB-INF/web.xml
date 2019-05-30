@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>Travelrecommendation</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+   <servlet>
+ <servlet-name>Registration</servlet-name>
+ <servlet-class>com.TravelRecommendation.Registration</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ <servlet-name>Registration</servlet-name>
+ <url-pattern>/Registration</url-pattern>
+ </servlet-mapping>
+ 
+  <servlet>
+ <servlet-name>Login</servlet-name>
+ <servlet-class>com.TravelRecommendation.Login</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ <servlet-name>Login</servlet-name>
+ <url-pattern>/Login</url-pattern>
+ </servlet-mapping>
+  
+   <servlet>
+ <servlet-name>SearchDemo</servlet-name>
+ <servlet-class>com.TravelRecommendation.admin.SearchDemo</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ <servlet-name>SearchDemo</servlet-name>
+ <url-pattern>/SearchDemo</url-pattern>
+ </servlet-mapping>
+  
+  <servlet>
+ <servlet-name>AddPoi</servlet-name>
+ <servlet-class>com.TravelRecommendation.admin.addpoi</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ <servlet-name>AddPoi</servlet-name>
+ <url-pattern>/AddPoi</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+ <servlet-name>RemovePoi</servlet-name>
+ <servlet-class>com.TravelRecommendation.admin.removepoi</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ <servlet-name>RemovePoi</servlet-name>
+ <url-pattern>/RemovePoi</url-pattern>
+ </servlet-mapping>
+ <servlet>
+ <servlet-name>addLatLng</servlet-name>
+ <servlet-class>com.TravelRecommendation.admin.addLatLng</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ <servlet-name>addLatLng</servlet-name>
+ <url-pattern>/addLatLng</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+ <servlet-name>displaymap</servlet-name>
+ <servlet-class>com.TravelRecommendation.user.displaymap</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ <servlet-name>displaymap</servlet-name>
+ <url-pattern>/displaymap</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+    <servlet-name>GetLocation</servlet-name>
+    <servlet-class>com.TravelRecommendation.user.GetLocation</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetLocation</servlet-name>
+    <url-pattern>/getlocation</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>displayhistory</servlet-name>
+    <servlet-class>com.TravelRecommendation.user.displayhistory</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>displayhistory</servlet-name>
+    <url-pattern>/displayhistory</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>saveHistory</servlet-name>
+    <servlet-class>com.TravelRecommendation.user.saveHistory</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>saveHistory</servlet-name>
+    <url-pattern>/saveHistory</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+   <servlet>
+    <servlet-name>displayChart</servlet-name>
+    <servlet-class>com.TravelRecommendation.admin.PieChartServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>displayChart</servlet-name>
+    <url-pattern>/displayChart</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

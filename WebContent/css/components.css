@@ -1,0 +1,182 @@
+.snform .stext {
+	width: 190px;
+	height: 35px;
+	margin: 2px 0px 10px 0px;
+	border: 1px solid;
+	background-color: #ffffff;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	font-size: 13px;
+	padding: 0 0 0 35px;
+}
+
+.snform .stext:focus {
+	border: 1px #dc4514 solid;
+	background-color: #fafafa;
+	padding: 0 0 0 35px;
+}
+
+.search_btn { /*	margin: 0 auto;10px 0px 0px 28px;*/
+	width: 120px;
+	font-size: 14px;
+	font-family: rockwell;
+	font-weight: bold;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 5px;
+	border: 1px solid #2a2a2a;
+	padding: 9px 15px;
+	text-decoration: none;
+	background-color: #2a2a2a;
+	color: #ffffff;
+	display: inline-block;
+	text-shadow: 1px 1px 0px #2a2a2a;
+}
+
+.search_btn:hover {
+	cursor: pointer;
+	background-color: #2a2a2a;
+}
+
+.search_btn:active {
+	position: relative;
+	top: 1px;
+}
+
+.footer1_rev_3x1 {
+	height: 25px;
+	line-height: 25px;
+	border: 0px solid #ffffff;
+	align: center;
+	padding-left: 20px;
+	font-size: 12px;
+	color: #ffffff;
+} /*background:#7e7ea9;*/
+
+/* create table generator css */
+<!--
+.sessiontablegenerator {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	border: 0px solid #efefef;
+	-moz-border-radius-bottomleft: 0px;
+	-webkit-border-bottom-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	-moz-border-radius-bottomright: 0px;
+	-webkit-border-bottom-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	-moz-border-radius-topright: 0px;
+	-webkit-border-top-right-radius: 0px;
+	border-top-right-radius: 0px;
+	-moz-border-radius-topleft: 0px;
+	-webkit-border-top-left-radius: 0px;
+	border-top-left-radius: 0px;
+}
+
+.sessiontablegenerator table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid #efefef;
+}
+
+.sessiontablegenerator tr:last-child td:last-child {
+	-moz-border-radius-bottomright: 0px;
+	-webkit-border-bottom-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+.sessiontablegenerator table tr:first-child td:first-child {
+	-moz-border-radius-topleft: 0px;
+	-webkit-border-top-left-radius: 0px;
+	border-top-left-radius: 0px;
+}
+
+.sessiontablegenerator table tr:first-child td:last-child {
+	-moz-border-radius-topright: 0px;
+	-webkit-border-top-right-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+.sessiontablegenerator tr:last-child td:first-child {
+	-moz-border-radius-bottomleft: 0px;
+	-webkit-border-bottom-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+.sessiontablegenerator tr:hover td {
+	background-color: #ffffff;
+}
+
+.sessiontablegenerator td {
+	vertical-align: middle;
+	background-color: #ffffff;
+	border: 1px solid #efefef;
+	border-width: 0px 1px 1px 0px;
+	text-align: left;
+	padding: 9px;
+	font-size: 12px;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	color: #2a2a2a;
+}
+
+.sessiontablegenerator tr:last-child td {
+	border-width: 0px 1px 0px 0px;
+}
+
+.sessiontablegenerator tr td:last-child {
+	border-width: 0px 0px 1px 0px;
+}
+
+.sessiontablegenerator tr:last-child td:last-child {
+	border-width: 0px 0px 0px 0px;
+}
+
+.sessiontablegenerator tr:first-child td {
+	background: -o-linear-gradient(bottom, #f5f5f5 5%, #f5f5f5 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f5f5f5
+		), color-stop(1, #f5f5f5) );
+	background: -moz-linear-gradient(center top, #f5f5f5 5%, #f5f5f5 100%);
+	filter: progid : DXImageTransform.Microsoft.gradient ( startColorstr =
+		"#f5f5f5", endColorstr = "#f5f5f5" );
+	background: -o-linear-gradient(top, #f5f5f5, f5f5f5);
+	background-color: #f5f5f5;
+	border: 0px solid #efefef;
+	text-align: center;
+	border-width: 0px 0px 1px 1px;
+	font-size: 14px;
+	font-family: Arial;
+	font-weight: bold;
+	color: #000000;
+}
+
+.sessiontablegenerator tr:first-child:hover td {
+	background: -o-linear-gradient(bottom, #f5f5f5 5%, #f5f5f5 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f5f5f5
+		), color-stop(1, #f5f5f5) );
+	background: -moz-linear-gradient(center top, #f5f5f5 5%, #f5f5f5 100%);
+	filter: progid : DXImageTransform.Microsoft.gradient ( startColorstr =
+		"#f5f5f5", endColorstr = "#f5f5f5" );
+	background: -o-linear-gradient(top, #f5f5f5, f5f5f5);
+	background-color: #f5f5f5;
+}
+
+.sessiontablegenerator tr:first-child td:first-child {
+	border-width: 0px 0px 1px 0px;
+}
+
+.sessiontablegenerator tr:first-child td:last-child {
+	border-width: 0px 0px 1px 1px;
+}
+
+.sessiontablegenerator td a,.sessiontablegenerator tr a {
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	color: #dc4614;
+}
+--> /* end table generator css */
